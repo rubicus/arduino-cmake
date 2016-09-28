@@ -5,6 +5,10 @@
 # Description: Arduino CMake example                                          #
 #                                                                             #
 #=============================================================================#
+# This should only be set when dealing with some boards
+# For other boards it needs to be commented:
+set(ARDUINO_CPU atmega328)
+
 set(CMAKE_TOOLCHAIN_FILE cmake/ArduinoToolchain.cmake) # Arduino Toolchain
 
 
